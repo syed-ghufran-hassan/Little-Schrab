@@ -1,0 +1,34 @@
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(145, 11, 11);
+}
+
+article {
+    background-color: rgba(110, 199, 110, 0.342);
+    border-radius: 5px;
+    padding: 3px;
+  }
+
+.border{
+  border-radius: 3px;
+  border-color: rgb(156, 99, 99);
+  border-width: 3px;
+  border-style: solid;
+  align-self: center;
+}
+
+.split-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .one-third {
+    max-width: 33%;
+  }
+  
+  .two-thirds {
+    width: 66%;
+  }
